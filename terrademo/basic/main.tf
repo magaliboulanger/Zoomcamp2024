@@ -41,8 +41,8 @@ resource "google_storage_bucket" "data-lake-bucket" {
 }
 
 
-resource "google_bigquery_dataset" "dataset" {
-  dataset_id = "yellow_taxi_trips"
+resource "google_bigquery_dataset" "demo_dataset" {
+  dataset_id = "demo_dataset"
   project    = "grounded-primer-411515"
   location   = "US"
 }
