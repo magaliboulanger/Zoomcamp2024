@@ -23,5 +23,7 @@ OPTIONS (
 ##Question 1
 SELECT count(*) FROM `grounded-primer-411515.ny_taxi.external_green_tripdata` 
 
+##Question 3
 
-##Question 2
+SELECT count(*) FROM `grounded-primer-411515.ny_taxi.external_green_tripdata` WHERE fare_amount=0
+
